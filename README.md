@@ -1,4 +1,7 @@
 # Pokémon Encyclopedia
+<img width="804" height="1094" alt="Screenshot 2025-07-12 235327" src="https://github.com/user-attachments/assets/dba1070f-52b1-4fef-90b8-13efbecdb3f3" />
+<img width="801" height="1091" alt="Screenshot 2025-07-12 235139" src="https://github.com/user-attachments/assets/1bdd9f6b-f9e7-4406-834a-f84a57e0ec14" />
+<img width="804" height="1092" alt="Screenshot 2025-07-12 235145" src="https://github.com/user-attachments/assets/606929a4-1462-4893-97e3-e1234ee3c309" />
 
 A modern, interactive Pokémon encyclopedia built with Angular 20, featuring Bill's AI-powered PC system for exploring and comparing Pokémon data.
 
