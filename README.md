@@ -24,23 +24,6 @@ A modern, interactive Pokémon encyclopedia built with Angular 20, featuring Bil
 - **API**: Express server proxying to PokéAPI
 - **State Management**: Angular Signals and Resource API
 
-## Project Structure
-
-```
-pokemon-encyclopedia/
-├── apps/
-│   └── pokemon-app/          # Main Angular application
-├── libs/
-│   ├── ai/
-│   │   └── feature-chat/     # AI chat interface with Bill
-│   ├── pokemon/
-│   │   ├── domain/           # Pokémon data models
-│   │   ├── feature-card/     # Pokémon card display component
-│   │   ├── feature-compare/  # Pokémon comparison component
-│   │   └── feature-list/     # Pokémon list component
-│   └── api/
-│       └── server/           # Express API server
-└── tools/                    # Build and development tools
 ```
 
 ## Getting Started
