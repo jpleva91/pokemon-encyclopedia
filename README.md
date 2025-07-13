@@ -1,6 +1,13 @@
 # Pokémon Encyclopedia
 A modern, interactive Pokémon encyclopedia built with Angular 20, featuring Bill's AI-powered PC system for exploring and comparing Pokémon data.
 
+# Agentic Architecture
+The AI chat isn’t just text-based—it uses a generative AI agent to:
+	•	Understand user queries
+	•	Dynamically choose which tools to invoke (e.g. Pokémon details, comparisons, filtered lists)
+	•	Decide which UI components to render on the fly (cards, tables, lists)
+
+This enables a truly interactive experience where the AI orchestrates both data retrieval and the user interface in real-time.
 🎮 **[Live Demo](https://pokemon-encyclopedia-nine.vercel.app/)**
 
 ![Pokemon Encyclopedia Screenshot](https://img.shields.io/badge/Angular-v20-red)
