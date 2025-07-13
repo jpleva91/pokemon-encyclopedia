@@ -1,0 +1,51 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": false,
+    "target": "es2022",
+    "module": "preserve",
+    "lib": ["es2020", "dom"],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pokemon-encyclopedia/ai-data-access": [
+        "libs/ai/data-access/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/data-access": [
+        "libs/pokemon/data-access/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/domain": ["libs/pokemon/domain/src/index.ts"],
+      "@pokemon-encyclopedia/feature-charts": [
+        "libs/visualization/feature-charts/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/feature-chat": [
+        "libs/ai/feature-chat/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/feature-card": [
+        "libs/pokemon/feature-card/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/feature-compare": [
+        "libs/pokemon/feature-compare/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/feature-detail": [
+        "libs/pokemon/feature-detail/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/feature-list": [
+        "libs/pokemon/feature-list/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@pokemon-encyclopedia/shared-feature-markdown": [
+        "libs/shared/feature-markdown/src/index.ts"
+      ],
+      "@pokemon-encyclopedia/ui": ["libs/pokemon/ui/src/index.ts"],
+      "@pokemon-encyclopedia/util": ["libs/shared/util/src/index.ts"],
+      "@pokemon-encyclopedia/visualization-ui": [
+        "libs/visualization/ui/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

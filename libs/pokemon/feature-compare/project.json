@@ -1,0 +1,9 @@
+{
+  "name": "feature-compare",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/pokemon/feature-compare/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["scope:pokemon", "type:feature"],
+  "targets": {}
+}
