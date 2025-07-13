@@ -1,0 +1,13 @@
+# Ignore Angular cache directory
+.angular/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore dist directory
+dist/
+
+# Ignore temporary files
+tmp/
+*.tmp
+*.temp
