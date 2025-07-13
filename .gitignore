@@ -52,3 +52,4 @@ vitest.config.*.timestamp*
 .env
 .env.local
 .env.*.local
+.vercel
