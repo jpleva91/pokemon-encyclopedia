@@ -11,7 +11,7 @@
       "options": {
         "configFile": "apps/pokemon-app/vite.config.ts",
         "main": "apps/pokemon-app/src/main.ts",
-        "outputPath": "dist/apps/pokemon-app/client",
+        "outputPath": "dist/apps/pokemon-app",
         "tsConfig": "apps/pokemon-app/tsconfig.app.json"
       },
       "defaultConfiguration": "production",

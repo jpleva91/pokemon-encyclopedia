@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
     root: __dirname,
     cacheDir: `../../node_modules/.vite`,
     build: {
-      outDir: '../../dist/apps/pokemon-app/client',
+      outDir: '../../dist/apps/pokemon-app',
       reportCompressedSize: true,
       target: ['es2020'],
     },
@@ -25,8 +25,9 @@ export default defineConfig(({ mode }) => {
     plugins: [
       analog({
         nitro: {
+          preset: 'vercel',
           runtimeConfig: {
-            openaiApiKey: env.OPENAI_API_KEY,
+            openaiApiKey: env['OPENAI_API_KEY'],
           },
         },
       }), 
@@ -41,7 +42,7 @@ export default defineConfig(({ mode }) => {
     },
     define: {
       'import.meta.vitest': mode !== 'production',
-      'process.env.OPENAI_API_KEY': JSON.stringify(env.OPENAI_API_KEY),
+      'process.env.OPENAI_API_KEY': JSON.stringify(env['OPENAI_API_KEY']),
     },
   };
 });

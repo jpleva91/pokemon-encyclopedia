@@ -1,6 +1,8 @@
 # Pokémon Encyclopedia
 A modern, interactive Pokémon encyclopedia built with Angular 20, featuring Bill's AI-powered PC system for exploring and comparing Pokémon data.
 
+🎮 **[Live Demo](https://pokemon-encyclopedia-nine.vercel.app/)**
+
 ![Pokemon Encyclopedia Screenshot](https://img.shields.io/badge/Angular-v20-red)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)
 ![Nx](https://img.shields.io/badge/Nx-Monorepo-143055)
